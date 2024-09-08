@@ -33,7 +33,6 @@ func TestGetApiKeyNoAuth(t *testing.T) {
 }
 
 func TestGetApiKeyMalformedKey(t *testing.T) {
-  t.Fatalf("Intentional Fail: Testing CI")
   //Malformed
   headers := make(http.Header)
   in_key := "12345678910abcdefgh"
